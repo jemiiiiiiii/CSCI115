@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="other.css">
+
+</head>
+<body>
+
+<!--Navigation Bar-->
+<div class="navHome">
+    <nav>
+        <ul>
+            <!--used intext since it just a few lines-->
+            <li style="float: left; font-weight: bolder;">Jamie Mano</li>
+            <li><a href ="other.html">Other</a></li>
+            <li><a href ="contact.html">Contact</a></li>
+            <li><a href ="portfolio.html">Portfolio</a></li>
+            <li><a href ="about.html">About</a></li>
+            <li><a href ="index.html">Home</a></li>
+            
+        </ul>
+    </nav>
+</div>
+
+<!--Reco-->
+<div style="text-align: center; margin: 50px;"><h1>Recommendations</h1></div>
+<div class="recoContainer">
+    <div class="recoCol">
+        <img src="https://media.licdn.com/dms/image/D5603AQEBkAVc-UIpWw/profile-displayphoto-shrink_100_100/0/1694132020962?e=1717027200&v=beta&t=ZRb2Hxtuhn44kYe1sH-KWeHk_2oiX8TDGDLBTaPiTSI" width="120" height="120" style="border-radius: 50%; margin: 30px;" alt="Marisa's Picture">
+        <div class="recoText">
+            <h2 style="margin-top: 50px; margin-bottom: -10px;">Marisa Turner</h2>
+            <p>Freelance Marketer & Web Designer</p>
+        </div>
+    </div>
+    <div style="float: right; margin: 20px;">
+        <a href="https://www.linkedin.com/in/jamie-ysabel-m-0861a8268/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="60" alt="linkedIn icon"></a>
+    </div>
+    <div style="clear: both;"></div>
+    <div style="margin-left: 35px; margin-top: -15px;">
+        <p>I had the pleasure of mentoring Jamie and cannot recommend her enough. If you are looking for someone equal parts creative and innovative as well as analytical and principled, she is a safe bet. She 
+            is determined, self-driven and responsible. I recommended her to her current volunteering position and will continue to do so.
+        </p>
+    </div>
+</div>
+
+<!--Quotes-->
+<div class="quoteContainer">
+    <h2>Inspirational Quotes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia perferendis sunt similique repudiandae dolorum expedita a. Repellendus, fugiat dolorem! Cum aut, placeat architecto esse molestias asperiores nobis! Optio ut quasi illo, error veniam aut, odit quod odio vel ducimus explicabo ipsam atque accusamus tempore, aspernatur eos doloremque ipsum perferendis labore?</p>
+
+    <!--from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr-->
+<div class="w3-content w3-section" style="max-width:500px; margin:50px 330px;">
+    <img class="mySlides" src="image/q1.jpg" width="800" alt="Quote">
+    <img class="mySlides" src="image/q2.jpg" width="800" alt="Quote">
+    <img class="mySlides" src="image/q3.jpg" width="800" alt="Quote">
+</div>
+    <!--from https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_rr-->
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+</div>
+
+<!--menu back-->
+<div class="menu">
+    <div class="menuContainer">
+        <div class="menuItem"><img src="image/m1.png" width="300" alt="Home"></div>
+        <p>Go Back to the Homepage</p>
+        <button type ="button" onclick="window.location.href='index.html'">Home</button>
+    </div>
+    <div class="menuContainer">
+        <div class="menuItem"><img src="image/m2.png" width="300" alt="About"></div>
+        <p>Go Back to About Me</p>
+        <button type ="button" onclick="window.location.href='about.html'">About Me</button>
+    </div>
+    <div class="menuContainer">
+        <div class="menuItem"><img src="image/m3.png" width="300" alt="Portfolio"></div>
+        <p>Go Back to Portofolio</p>
+        <button type ="button" onclick="window.location.href='portfolio.html'">Portfolio</button>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="foot">
+    <div style="margin-bottom: 50px;">
+        <h1>Get in touch! I'd love to hear from you.</h1>
+    </div>
+    <button type ="button" onclick="window.location.href='contact.html'">Contact me</button>
+
+    <div style="margin-top: 50px;">
+        <a href = "mailto:manojamie4@gmail.com"><img src="https://static.vecteezy.com/system/resources/previews/014/440/980/original/email-message-icon-design-in-blue-circle-png.png" width="60" style="margin-right: 8px;" alt="email icon"></a>
+        <a href="https://www.instagram.com/nofkyo_art/?hl=en"><img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579602-yumminkysocialmedia36_83067.png" width="60" style="margin-right: 8px;" alt="instagram icon"></a>
+        <a href="https://www.linkedin.com/in/jamie-ysabel-m-0861a8268/"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" width="60" alt="linkedIn icon"></a>          
+    </div>
+</div>
+
+</body>
+</html>

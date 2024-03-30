@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+/*button functionality was from: https://copy-paste-css.com/*/
+button{
+    color: white;
+    cursor: pointer;
+    outline: 0;
+    font-family: 'Montserrat', Courier, monospace;
+    background-color:#008F8C;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+    button:hover{
+        color: #fff;
+        background-color: #D9593D;
+    }
+
+.foot{
+    margin-top: 200px;
+    padding-top:150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    background-color:#FACFCE;
+    text-align: center;
+}
+.footIcon{
+    width:10px;
+    height: 10px;
+}
+
+/*From Lab7 then I just change somethings*/
+.navHome{
+    position: sticky;
+    background-color: white;
+    width: 100%;
+}
+    .navHome ul{
+        overflow: auto;
+    }
+
+    .navHome a{
+        padding: 3px 4px;
+        text-decoration: none;
+    }
+
+    .navHome li{
+        float: right;
+        list-style: none;
+        margin: 15px 20px;
+        text-decoration: none;
+    }

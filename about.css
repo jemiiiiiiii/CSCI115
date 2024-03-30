@@ -1,0 +1,133 @@
+
+.aboutBG { 
+    /*I guess I wanted a full width section picture
+    but I think it depends on the size of the picture if I don't want it repeating*/
+    background-color: #8095BF;
+    background-repeat: no-repeat;  
+    height: 600px;
+    width: 100%;
+    max-width: 240em;
+    padding-bottom: 50px;
+}
+
+.introText{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+    .introText h1{
+        font-weight: bolder;
+        font-size: 120px;
+        text-align: center;
+    }
+
+.introIcon{
+    text-align: center;
+    margin-top: -150px;
+}
+
+.bodyText{
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.hobText{
+    margin-right: 280px;
+    margin-top: 100px;
+    float: right;
+}
+    .hobText h1{
+        font-size: 70px;
+    }
+
+    .hobText li{
+        margin-bottom: 15px;;
+    }
+
+/*From home.css*/
+.progContainer{
+    margin:30px 100px;
+    float: right;
+}
+    .progContainer .bar{
+        height: 25px;
+        width: 600px;
+        border: 2px solid;
+        border-radius: 25px;
+    }
+        .progContainer .bar .progress1{
+            height: 25px;
+            width: 550px;
+            border: 0 solid transparent;
+            background-color:#245C73;
+            border-radius: 25px;
+        }
+        .progContainer .bar .progress2{
+            height: 25px;
+            width: 300px;
+            border: 0 solid transparent;
+            background-color:#F2B441;
+            border-radius: 25px;
+        }
+        .progContainer .bar .progress3{
+            height: 25px;
+            width: 220px;
+            border: 0 solid transparent;
+            background-color:#F2594B;
+            border-radius: 25px;
+        }
+        .progContainer .bar .progress4{
+            height: 25px;
+            width: 400px;
+            border: 0 solid transparent;
+            background-color:#80F2DD;
+            border-radius: 25px;
+        }
+
+    .progContainer .titleText{
+        font-size: medium;
+        margin: 10px;
+    }
+
+/*table*/
+.progTab{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 190px; 
+    margin-bottom: 200px;  
+}
+    .progTab tr{
+        padding: 10px;
+    }
+
+    .progTab td{
+        padding: 10px;
+        text-align: center; 
+    }
+
+    .progTab caption{
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+
+/*from home.css*/
+.featureText{
+    text-align: center;
+    margin: 50px;
+}
+
+.featureImage{
+    text-align: center;
+    margin-top: 60px;
+}
+ 
+  .featureImage:hover {
+    /*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+    transform: scale(1.05);
+  }
