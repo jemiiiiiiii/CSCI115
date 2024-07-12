@@ -1,57 +1,42 @@
-.recoContainer{
-    width: 900px;
-    height: 300px;
-    border: 2px solid transparent;
-    background-color: rgb(241, 241, 241);
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 200px;
+.sideContainer{
+    background-color: #F7D7CC;
+    width: 35%;
+    height: 1230px;
+    float: left;
+
 }
-    .recoContainer .recoCol{
-        float:left;
+    .sideContainer .sideText{
+        margin: 300px 50px;
+        text-align: center;
     }
 
-    .recoContainer .recoText{
-        float: right;
-        margin-left: 30px;
+.portSide{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+    .item {
+        margin: 5px;
     }
 
-.quoteContainer{
+.digi{
     text-align: center;
-    background-color:#AFDAC9;
-    color: white;
-    padding: 30px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 70px;
 }
-    .quoteContainer h2{
-        padding-top: 50px;
-    }
-
-    .quoteContainer p{
-        margin: 0px 100px;
-    }
-
-.mySlides {
-    display:none;
-}
-
-.menu {
-    width: 100%;
+.center{
     text-align: center;
 }
-.menuContainer {
-    display: inline-block;
-    width: 400px;
-    height: 500px;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-color: rgb(241, 241, 241);
-    margin: 60px 10px;
 
-}
-
-.menuItem{
-    margin: 15px;
+/*from home.css*/
+.featureText{
     text-align: center;
+    margin: 50px;
 }
+
+.featureImage{
+    text-align: center;
+    margin-top: 60px;
+}
+ 
